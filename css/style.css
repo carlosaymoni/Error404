@@ -1,0 +1,112 @@
+/* 
+
+Foto de <a href="https://unsplash.com/@resourcedatabase?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Resource Database</a> en <a href="https://unsplash.com/es/fotos/gRZWo4Km1A8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(/img/resource-database-404-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main__h1 {
+    transform: rotate(-90deg);
+    font-size: 12rem;
+    font-weight: 300;
+    color: #282828;
+    animation: move linear 2s infinite;
+}
+
+@keyframes move {
+    0% {
+        text-shadow:
+            4px -4px 0 #da0641,
+            3px -3px 0 #da0641,
+            2px -2px 0 #da0641,
+            1px -1px 0 #da0641,
+            -4px 4px 0 #13f1fc,
+            -3px 3px 0 #13f1fc,
+            -2px 2px 0 #13f1fc,
+            -1px 1px 0 #13f1fc;
+    }
+    25% {
+        text-shadow:
+            -4px -4px 0 #13f1fc,
+            -3px -3px 0 #13f1fc,
+            -2px -2px 0 #13f1fc,
+            -1px -1px 0 #13f1fc,
+            4px 4px 0 #da0641,
+            3px 3px 0 #da0641,
+            2px 2px 0 #da0641,
+            1px 1px 0 #da0641;
+    }
+    50% {
+        text-shadow:
+            -4px 4px 0 #da0641,
+            -3px 3px 0 #da0641,
+            -2px 2px 0 #da0641,
+            -1px 1px 0 #da0641,
+            4px -4px 0 #13f1fc,
+            3px -3px 0 #13f1fc,
+            2px -2px 0 #13f1fc,
+            1px -1px 0 #13f1fc;
+    }
+    75% {
+        text-shadow:
+            4px 4px 0 #13f1fc,
+            3px 3px 0 #13f1fc,
+            2px 2px 0 #13f1fc,
+            1px 1px 0 #13f1fc,
+            -4px -4px 0 #da0641,
+            -3px -3px 0 #da0641,
+            -2px -2px 0 #da0641,
+            -1px -1px 0 #da0641;
+    }
+    100% {
+        text-shadow:
+            4px -4px 0 #da0641,
+            3px -3px 0 #da0641,
+            2px -2px 0 #da0641,
+            1px -1px 0 #da0641,
+            -4px 4px 0 #13f1fc,
+            -3px 3px 0 #13f1fc,
+            -2px 2px 0 #13f1fc,
+            -1px 1px 0 #13f1fc;
+    }
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__h3 {
+    font-size: 7rem;
+    font-weight: 700;
+    color: #da0641;
+    z-index: 1;
+    text-shadow: 1px 10px 10px black;
+    letter-spacing: 10px;
+}
+
+.container__p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
